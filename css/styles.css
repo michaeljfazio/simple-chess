@@ -56,6 +56,36 @@ html, body {
   justify-content: center;
 }
 
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.github-link:hover {
+  color: var(--text);
+  border-color: var(--text-dim);
+}
+
+.github-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.github-btn svg {
+  vertical-align: middle;
+}
+
 .mode-card {
   background: var(--panel-bg);
   border: 1px solid var(--panel-border);
