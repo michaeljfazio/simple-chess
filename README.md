@@ -2,6 +2,8 @@
 
 A complete chess game built with vanilla HTML, CSS, and JavaScript — no frameworks, no build tools. Opens directly in a browser.
 
+**[Play it online](https://michaeljfazio.github.io/simple-chess/)**
+
 ## Features
 
 - **Two-player mode** — play against a friend on the same device
