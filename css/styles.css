@@ -74,16 +74,10 @@ html, body {
   border-color: var(--text-dim);
 }
 
-.github-btn {
-  display: inline-flex;
-  align-items: center;
+.site-footer {
+  display: flex;
   justify-content: center;
-  gap: 6px;
-  text-decoration: none;
-}
-
-.github-btn svg {
-  vertical-align: middle;
+  padding: 16px 0 24px;
 }
 
 .mode-card {
